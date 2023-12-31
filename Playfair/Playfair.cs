@@ -1,8 +1,8 @@
 namespace Playfair
 {
-    public partial class Form1 : Form
+    public partial class Playfair : Form
     {
-        public Form1()
+        public Playfair()
         {
             InitializeComponent();
         }
@@ -65,10 +65,25 @@ namespace Playfair
                 matrix[i / 5, i % 5] = letter;
                 letter++;
             }
-
+            DisplayMatrix(matrix);
             return matrix;
         }
-
+        private void DisplayMatrix(char[,] matrix)
+        {
+            Button[] btn = {button1,button2,button3,button4,button5,
+            button6,button7,button8,button9,button10,
+            button11,button12,button13,button14,button15,
+            button16,button17,button18,button19,button20,
+            button21,button22,button23,button24,button25};
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    int index = (i * 5) + j;
+                    btn[index].Text = matrix[i, j].ToString();
+                }
+            }
+        }
         private string AdjustPlaintext(string plaintext)
         {
             string adjustedText = "";
@@ -215,5 +230,6 @@ namespace Playfair
             encryptOutput.Text = string.Empty;
             decryptOutput.Text = string.Empty;
         }
+
     }
 }

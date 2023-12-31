@@ -12,5 +12,6 @@ C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\refint\Pl
 C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\Playfair.pdb
 C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\Playfair.genruntimeconfig.cache
 C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\ref\Playfair.dll
-C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\Playfair.Form1.resources
 C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\Playfair.csproj.GenerateResource.cache
+C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\Playfair.sourcelink.json
+C:\Users\nguye\source\repos\Playfair\Playfair\obj\Debug\net8.0-windows\Playfair.Playfair.resources
